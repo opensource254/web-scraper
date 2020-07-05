@@ -1,0 +1,25 @@
+{
+  "name": "covid-scraper",
+  "version": "1.0.0",
+  "description": "data scraper",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraper",
+    "expressjs"
+  ],
+  "author": "opensource.org, Wilcox",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "csv-stringify": "^5.5.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "puppeteer": "^5.0.0"
+  }
+}
